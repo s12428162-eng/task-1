@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: transparent;
+    border: 0;
+}
+ul{
+    list-style-type: none;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 21.8px;
+    justify-content: space-around;
+    
+}
+.item ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.icons ul{
+    
+ display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.colltions {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.colltion{
+    width: calc( (100% - 90px ) / 4);
+}
+.colltion img{
+    width: 100%;
+}
+.colltion h2{
+    margin-top: 23px;
+}
+.container{
+    width: calc(100% - 330px);
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
